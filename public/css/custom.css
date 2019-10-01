@@ -1,0 +1,152 @@
+body {
+    background: url('../img/bg.jpg'); 
+    background-size:cover;
+} */
+
+/* loading */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/loading_circle.gif') center no-repeat #fff;
+}
+/* footer */
+.footer{
+    color: #fff;
+	background-color:#661421;
+	z-index:9999;
+	height:40px;
+	padding:10px;
+}
+/* login */
+@media only screen and (min-width: 768px) {
+    .login .vertical-offset {
+		padding-top: 160px;
+	}
+	.login .vertical-offset2 {
+		padding-top: 100px;
+	}
+}
+@media only screen and (max-width: 768px) {
+			.mobile, .dt-buttons, #example_length{
+				display:none;
+			}
+		}	
+.login .panel {
+    padding:10px 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+
+/* table */
+.pagination{
+    margin:0px
+}
+
+/* top search */
+.search{								
+	float:right;
+	padding:5px;
+	min-height: 38px;
+}
+.search input, .search select{
+	width:120px;
+	float:right;
+	border:none;
+	background-color:transparent;
+	height: 26px;
+	margin: 0  0  0 10px;	
+    border-right: solid #ddd thin;	
+}
+
+/* datatables buttons */
+
+td.aktiv {
+    font-weight:bolder !important; 
+    background-color: #7DD181!important;
+  }
+  div.dt-buttons {
+  float: right !important;
+  }
+  .dataTables_filter {
+      float: left !important;
+  }
+
+   #newNavBar{
+      background-color: #661421;
+  }
+  .bootstrap-select .bs-ok-default::after {
+    width: 0.3em;
+    height: 0.6em;
+    border-width: 0 0.1em 0.1em 0;
+    transform: rotate(45deg) translateY(0.5rem);
+}
+
+.btn.dropdown-toggle:focus {
+    outline: none !important;
+}
+
+a {
+    color: #661421;
+}
+
+a:hover, a:focus {
+    color:#661421;  
+
+}
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background: #fff !important;
+    color:#661421 !important;
+}
+.dropdown button{
+    border-width: 2px;
+    border-color: #661421;
+    color:#661421;
+ }
+ .dropdown ul li a{
+    color: #661421;
+ }
+ .caret{
+    color:#661421;
+ }
+ .dorpdown:focus {
+    border-color: #661421;
+    box-shadow: 0 0 0 0.2rem rgba(205, 40, 66, 0.50);
+ }
+ .footer a {
+     color: lightcyan;
+ }
+
+ .noteInput {
+     min-width: 263px;
+     min-height: 241px;
+ }
+.noteInput2 {
+    margin: 0px -8px 0px 0px; 
+    min-width: 808px; 
+    min-height: 70px;
+}
+
+ .form-control:focus {
+    border-color: #661421;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 20, 33, 0.6);
+  }
+  
+  .form-control {
+      border: 2px solid #661421;
+  }
+  
+.nav a:active {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #661421;
+}
